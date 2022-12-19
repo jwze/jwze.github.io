@@ -1,0 +1,16 @@
+{
+  "short_name": "行程卡",
+  "name": "行程卡",
+  "icons": [
+    {
+      "src": "common/images/logo.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "jvz-index",
+  "start_url": ".",
+  "display": "standalone",
+  "scope": "/",
+  "description": "行程卡纪念版"
+}
