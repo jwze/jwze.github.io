@@ -68,11 +68,11 @@ task(['src/**/*']);
 build('build/');
 
 if(!isDev) {
-  const files = await globby(['build/**/*', '!build/service-worker.js']);
+  const files = globby(['build/**/*', '!build/service-worker.js']);
   const assets = _.groupBy(files.map(file => file.substring(6)), // strip 'build/'
     file => file.includes(path.sep) ? file.split(path.sep, 1)[0] : 'root'); 
    
-  await appendFile('build/service-worker.js', `;assets = ${JSON.stringify(assets)}`);
+  appendFile('build/service-worker.js', `;assets = ${JSON.stringify(assets)}`);
 }
 
 if(process.argv.includes('--watch')) {
