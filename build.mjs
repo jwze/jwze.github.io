@@ -65,7 +65,7 @@ if(!isDev) {
 // copy rest files
 task(['src/**/*']);
 
-await build('build/');
+build('build/');
 
 if(!isDev) {
   const files = await globby(['build/**/*', '!build/service-worker.js']);
