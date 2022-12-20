@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwze/jwze.github.io.git"
+    "url": "git+https://github.com/jwze/trip-card.git"
   },
-  "homepage": "https://github.com/jwze/jwze.github.io",
+  "homepage": "https://github.com/jwze/trip-card",
   "devDependencies": {
     "chokidar": "^3.5.3",
     "clean-css": "^5.3.1",
