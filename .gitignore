@@ -1,4 +1,6 @@
+# npm packages
 /build
+/node_modules
 
 *.css.map
 nav.css
